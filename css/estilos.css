@@ -230,3 +230,6 @@ img{
     animation-name: show;
     animation-duration: 800ms;
 }
+.header_div{
+    width: 100% !important;
+}
