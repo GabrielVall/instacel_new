@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animaciones.css">
+    <title>Instacel</title>
+</head>
+<body>
+    <div class="front_screen center">
+        <div class="center_div center">
+            <div class="image_preview center">
+                <img src="logo.png">
+            </div>
+            <div class="svg_loader center">
+                <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom_screen">        
+        <div class="top_image" data-step="1">
+            <img class="toggle_img active" data-step="1" src="assets/images/prelogin1.webp">
+            <img class="toggle_img" data-step="2" src="assets/images/prelogin2.webp">
+            <img class="toggle_img" data-step="3" src="assets/images/prelogin3.webp">
+        </div>
+        <div class="bottom_div">
+            <div class="header_div">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 372 34" fill="none">
+                    <ellipse rx="187.5" ry="17" transform="matrix(1 0 0 -1 187.5 17)" fill="#EFEFEF"/>
+                </svg>
+            </div>
+            <div class="content_div">
+                <span class="text_active showed" data-id="1">
+                    <h2>Obtén el mejor y más rápido servicio en telefonía</h2>
+                    <p>Unete a la familia instacel y aprovecha todos los planes y ofertas que tenemos especialmente para tí.</p>
+                </span>
+                <span class="text_active" data-id="2">
+                    <h2>Aprovecha todas las nuestras ofertas</h2>
+                    <p>Al registrarte podras obtener ofertas unicas que solo estaran disponibles desde la aplicación.</p>
+                </span>
+                <span class="text_active" data-id="3">
+                    <h2>¡No pierdas esta gran oportunidad!</h2>
+                    <p>Registrate ahora y obtén todas las ofertas unicas que tenemos para ti solo disponibles desde nuestra app.</p>
+                </span>
+                <div class="steps_content">
+                    <div class="steps center">
+                        <div class="step active" data-num="1"></div>
+                        <div class="step" data-num="2"></div>
+                        <div class="step" data-num="3"></div>
+                    </div>
+                </div>
+                <div class="botones_prelogin">
+                    <a class="secondary_btn" href="#">Inicia sesión</a>
+                    <a class="primary_btn" href="#">Registrate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script src="js/jquerymobile.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/mobilefunctions.js"></script>
+</html>
